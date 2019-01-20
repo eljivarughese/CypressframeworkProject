@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "checkJs": true,
+      "baseUrl": "../node_modules",	
+      "types": [
+        "cypress"
+      ],
+      "target": "es5",
+      "module": "commonjs",
+      "sourceMap": true,
+      "lib": ["es5", "dom"],
+    },
+    "include": [
+      "**/*.*"
+    ]
+  }
